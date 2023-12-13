@@ -11,7 +11,7 @@ Send TCP Msg using Macro Deck 2
 具体逻辑就是使用MacroDeck中的Windows Utils的Start applicaton动作，以带参方式打开程序，程序会按照参数中的地址把信息发送至指定TCP服务器。
 
 使用方式如下：
-![1.PNG](https://github.com/kongbaiku/MacroDeckTCP/blob/main/README/1.png)
+![1.png](https://github.com/kongbaiku/MacroDeckTCP/blob/main/README/1.png)
 
 Argument："127.0.0.1,1001,STR,Helloworld"
 127.0.0.1：TCP服务器地址。
