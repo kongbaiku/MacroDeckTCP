@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 
     if(qApp->arguments().count() > 1)
     {
-        QStringList vstr = qApp->arguments().at(1).split(",");
+        QStringList vstr = qApp->arguments().at(1).split(",,");
         QTcpSocket *tcpSocket = new QTcpSocket();
         if(tcpSocket->open(QIODevice::ReadWrite))
         {
