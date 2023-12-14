@@ -17,10 +17,10 @@ Send TCP Msg using Macro Deck 2
 
 使用方式如下：
 
-![1.jpeg](https://picss.sunbangyan.cn/2023/12/13/397aaddb807bdc60d71b9a6b9e35e75b.jpeg)<br><br>
+![1.jpeg](https://picdm.sunbangyan.cn/2023/12/14/f71bd22b37b8b4401c4b900944d9e3aa.jpeg)<br><br>
 
 
-Argument："127.0.0.1,1001,STR,Helloworld"
+Argument："127.0.0.1,,1001,,STR,,{\"mac\":\"d0bae4643364\",\"plug_0\":{\"on\":0}}"
 
 127.0.0.1：TCP服务器地址。
 
@@ -30,4 +30,6 @@ STR：代表发送的是字符串消息。
 
 HEX：代表发送的是Hex消息。
 
-Helloworld：消息。
+{\"mac\":\"d0bae4643364\",\"plug_0\":{\"on\":0}}：消息，注意部分字符可能需要转义。<br><br>
+
+**PS：Enigma Virtual Box打包为单文件会被报毒，V0.0.0.2后都不打包了**
